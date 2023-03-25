@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button {
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    top: 30px;
+}
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 70px;
+}
+.column1 {
+    background-color: steelblue;
+    color: white;
+}
+#container div {
+    width: 300px;
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    line-height: 50px;
+}
